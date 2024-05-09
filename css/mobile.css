@@ -102,14 +102,18 @@ body {
 }
 .footer-left {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     width: 100%;
     height: auto;
    
 }
 .footer #footer-p{
-    width: 80%;
-    
+
+    width: 100%;
+    text-align: justify;
+    text-indent: 10px;
+    justify-content: center;
 }
 
 .footer-portrait {

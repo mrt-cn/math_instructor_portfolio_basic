@@ -1,6 +1,9 @@
 #navbar{
-    height:90px;
+    height:140px;
 
+}
+#navbar #navitems {
+    flex-direction: row;
 }
 .btn-primary{
     color:black;
@@ -42,14 +45,18 @@ body {
 #navbar ul li {
     margin-bottom: 10px; /* Liste öğeleri arası boşluk */
 }
+#home span{
+    display: none;
+}
 
 #contacts, #galeri {
     padding: 10px; /* İletişim ve galeri dolgusunu azalt */
-    width: 100%; /* Tam genişlik */
+    width: 90%; /* Tam genişlik */
 }
 
+
 #contacts img, .footer-portrait {
-    width: 50px; /* İkonların ve portrelerin boyutunu azalt */
+    width: 30%; /* İkonların ve portrelerin boyutunu azalt */
 }
 
 .footer .container {
