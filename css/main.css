@@ -17,6 +17,7 @@ body {
 
 
 header {
+    
     position: fixed;
     top: 0;
     z-index: 1;
@@ -32,7 +33,11 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    height: 80px;
+    height: 90px;
+}
+
+#navbar #brand-head {
+    margin: 10px;
 }
 
 #navbar .brand {
@@ -56,6 +61,12 @@ a {
 #navbar .brand h1 {
     color: #524091;
     font-size: 1.75rem;
+    padding-top: 10px;
+}
+#navbar .brand h2 {
+    color: #ff014f;
+    font-size: 1.50rem;
+    
 }
 
 #navbar ul {
@@ -86,7 +97,7 @@ a {
 #home {
     display: flex;
     justify-content: space-between;
-    margin-top: 90px;
+    margin-top: 50px;
     
 }
 
@@ -110,6 +121,7 @@ a {
     display: flex;
     padding: 0.8rem;
     align-items: center;
+    margin-top: 1.40rem;
 }
 
 #home ul li {
@@ -141,6 +153,10 @@ a {
     color: black;
     
 }
+#contacts #tel {
+    display: none;
+}
+
 
 #about {
     margin: auto;
@@ -375,7 +391,7 @@ a {
 .social-links li a img {
     width: 40px; /* Sosyal medya ikonlarının genişliğini biraz büyüt */
     height: auto;
-    
+    padding: 3px;
     margin-right: 5px;
 
 }

@@ -10,9 +10,10 @@
     padding-bottom:1rem;
     overflow:hidden;
     text-align: center;
-    height:150px;
+    height:200px;
 }
 #navbar #navitems {
+    
     flex-direction: row;
 }
 #navbar .brand h2{
@@ -24,12 +25,13 @@
     max-width: 100%;
     
     height:auto;
-    margin-top: 2.25rem;
+    margin-top: 8rem;
 }
 
 #home span{
     display: none;
 }
+
 
 
 
@@ -43,7 +45,19 @@
     
 }
 
+#contacts #tel {
+    display:block;
+}
+#contacts #tel h2{
+    font-size: 2rem;
+    color: black;
+}
 
+.iletisim {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
 
 /* Mobil CSS */
 body {
@@ -86,6 +100,7 @@ body {
     height: auto;
 }
 #contacts div h2 {
+    margin-top: 25px;
     text-align: center;
     font-size: 0.9rem;
 }
