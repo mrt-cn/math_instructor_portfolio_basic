@@ -6,10 +6,9 @@
 #navbar{
     width: 100%;
     flex-direction: column;
-    padding-top:0.75rem;
-    padding-bottom:1rem;
-    overflow:hidden;
-    text-align: center;
+
+    /* overflow:hidden; */
+   /*  text-align: center; */
     height:210px;
 }
 #navbar #navitems {
