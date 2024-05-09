@@ -1,3 +1,9 @@
+
+main {
+    width: 100%;
+    
+}
+
 #header {
     width: 100%;
 }
@@ -41,7 +47,7 @@
     
     width: 100%;
     height:auto;
-    text-align: left;
+
     
     
 }
@@ -60,27 +66,28 @@ body {
     font-size: 12px; /* Metin boyutunu daha da küçült */
 }
 
+
+
 .header, .footer {
-    padding: 5px; /* Üstbilgi ve altbilgi dolgusunu daha da azalt */
+   /* padding: 5px; */ 
 }
 
 #navbar .brand h1, #home h2, #about h3 {
-    font-size: 1.2rem; /* Başlık font boyutlarını daha da azalt */
+    font-size: 1.2rem; 
 }
-
 #navbar ul {
-    flex-direction: column; /* Navbar öğelerini dikey sırala */
+    flex-direction: column; 
 }
 
 #navbar ul li {
-    margin-bottom: 5px; /* Liste öğeleri arası daha küçük boşluk */
+    margin-bottom: 5px; 
 }
-
 #about {
-    width: 80%;
+    width: 90%;
+    
 }
 #about p{
-    text-indent: 0;
+    text-indent: 10px;
 }
 
 #carouselExampleControls{
@@ -98,12 +105,15 @@ body {
 #contacts div h2 {
     margin-top: 25px;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
-#contacts, #galeri {
+#contacts {
+    width: 100%; 
+}
+#galeri {
     padding: 5px; 
-    width: 80%; 
+    width: 100%; 
 }
 
 
@@ -128,7 +138,7 @@ body {
 }
 
 .footer-portrait {
-    width: 200px;
+    width: 60%;
 }
 
 
