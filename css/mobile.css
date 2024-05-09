@@ -23,7 +23,7 @@
 }
 #home #logo{
     
-    max-width: 100%;
+    max-width: 50%;
     
     height:auto;
     margin-top: 7rem;
@@ -42,7 +42,7 @@
     width: 100%;
     height:auto;
     text-align: left;
-    margin-top: 1rem;
+    
     
 }
 
@@ -54,11 +54,6 @@
     color: black;
 }
 
-.iletisim {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-}
 
 /* Mobil CSS */
 body {
