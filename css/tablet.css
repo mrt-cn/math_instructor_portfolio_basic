@@ -1,0 +1,63 @@
+#navbar{
+    height:90px;
+
+}
+.btn-primary{
+    color:black;
+    
+    padding:0.25rem;
+    
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    color:rgba(82, 64, 145, 0.8);
+}
+
+#contacts {
+    flex-direction: column; /* Ekran daraldığında dikey hizala */
+}
+
+#contacts h2, #contacts ul {
+    margin-bottom: 10px; /* Elemanlar arası boşluk */
+}
+
+/* Tablet CSS */
+body {
+    font-size: 14px; /* Metin boyutunu azalt */
+}
+
+.header, .footer {
+    padding: 10px; /* Üstbilgi ve altbilgi dolgusunu azalt */
+}
+
+#navbar .brand h1, #home h2, #about h3 {
+    font-size: 1.5rem; /* Başlık font boyutlarını azalt */
+}
+
+#navbar ul {
+    flex-direction: column; /* Navbar öğelerini dikey sırala */
+    padding: 10px;
+}
+
+#navbar ul li {
+    margin-bottom: 10px; /* Liste öğeleri arası boşluk */
+}
+
+#contacts, #galeri {
+    padding: 10px; /* İletişim ve galeri dolgusunu azalt */
+    width: 100%; /* Tam genişlik */
+}
+
+#contacts img, .footer-portrait {
+    width: 50px; /* İkonların ve portrelerin boyutunu azalt */
+}
+
+.footer .container {
+    flex-direction: column; /* Footer elemanlarını dikey sırala */
+    align-items: center; /* Ortala */
+}
+
+.footer-links, .social-links {
+    text-align: center; /* Bağlantıları merkeze al */
+}
+

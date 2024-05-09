@@ -1,0 +1,105 @@
+
+
+#navbar{
+    flex-direction: column;
+    padding-top:0.75rem;
+    padding-bottom:1rem;
+    overflow:hidden;
+    text-align: center;
+    height:300px;
+}
+#navbar .brand h1{
+    text-align: center;
+}
+#home img{
+    
+    max-width: 100%;
+    border-radius:100%;
+    height:auto;
+    margin-top: 13rem;
+}
+
+
+#home span{
+    display: none;
+}
+/* Mobil CSS */
+body {
+    font-size: 12px; /* Metin boyutunu daha da küçült */
+}
+
+.header, .footer {
+    padding: 5px; /* Üstbilgi ve altbilgi dolgusunu daha da azalt */
+}
+
+#navbar .brand h1, #home h2, #about h3 {
+    font-size: 1.2rem; /* Başlık font boyutlarını daha da azalt */
+}
+
+#navbar ul {
+    flex-direction: column; /* Navbar öğelerini dikey sırala */
+}
+
+#navbar ul li {
+    margin-bottom: 5px; /* Liste öğeleri arası daha küçük boşluk */
+}
+
+#about {
+    width: 420px;
+}
+#about p{
+    text-indent: 0;
+}
+
+#carouselExampleControls{
+    width: 420px;
+    margin: auto;
+}
+#carouselExampleControls button{
+    z-index: -1;
+
+}
+
+#contacts, #galeri {
+    padding: 5px; /* İletişim ve galeri dolgusunu daha da azalt */
+    width: 100%; /* Tam genişlik */
+}
+
+#contacts img  {
+    width: 40px; /* İkonların ve portrelerin boyutunu daha da azalt */
+}
+.footer {
+    width:100%;
+    height: auto;
+}
+.footer-left {
+    display: flex;
+    justify-content: center;
+}
+.footer #footer-p{
+    width: 80%;
+    
+}
+
+.footer-portrait {
+    width: 200px;
+}
+.footer-left{
+    width: 370px;
+    height: auto;
+    text-align: left;
+    
+}
+
+.footer .container {
+    flex-direction: column; /* Footer elemanlarını dikey sırala */
+    align-items: center; /* Ortala */
+}
+
+.footer-links, .social-links {
+    text-align: center; /* Bağlantıları merkeze al */
+}
+
+
+
+

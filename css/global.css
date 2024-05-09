@@ -1,0 +1,71 @@
+ /* Text Center */
+ .text-center{
+    text-align: center;
+}
+/* Heading Size */
+.heading-small {
+    font-size: 1.25rem;
+}
+.heading-medium {
+    font-size: 1.5rem;
+}
+.heading-large {
+    font-size: 1.75rem;
+}
+.bg-blue{
+   background-color: #7CDAE9;
+} 
+
+/* Buttons */
+.btn{
+   margin-top: 1.25rem;
+   margin-bottom: 1rem;
+   padding:0.8rem 3rem;
+   border-radius:7px;
+   letter-spacing: 2px;
+}
+.btn-seconder{
+   
+   color:#3f9ee8;
+   background-color:#fff;
+   padding:1rem;
+   border-radius: 10px;
+   letter-spacing: 5px;
+   font-weight: 600;
+}
+.btn-seconder:hover{
+   color:#fff;
+   background-color: #3f9ee8;
+   border:1px solid grey;
+   border-radius: 10px;
+}
+.btn-primary{
+   color:#524091;
+   padding:0.5rem;
+   border-radius: 10px;
+}
+.btn-primary:hover{
+   color:rgba(82, 64, 145, 0.7);
+
+}
+
+.static{
+   
+   position: fixed;
+   width:100%;
+   z-index: +1;
+   
+}
+
+.container {
+   max-width:1550px;
+   margin:0 auto;
+}
+/* Forms */
+
+
+
+
+
+
+

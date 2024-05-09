@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body {
+    background-color: #ebf5f7;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 80px;
+}
+
+#navbar .brand {
+    display: flex;
+    padding: 1rem;
+
+    align-items: center;
+    justify-content: left;
+    font-size: 1.25rem;
+}
+
+#navbar .brand img {
+    width: 3rem;
+    height: auto;
+    margin-right: 10px;
+}
+#navbar .brand img:hover {
+    transform: scale(1.1);
+}
+
+#navbar .brand h1 {
+    color: #524091;
+    font-size: 1.75rem;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0.8rem;
+    align-items: center;
+}
+
+#navbar ul li {
+    font-size: 1rem;
+    padding: 0.2rem;
+    list-style-type: none;
+}
+
+#navbar ul li a {
+    color: #524091;
+    font-weight: 600;
+    font-size: 1.25rem;
+    
+}
+
+#navbar ul li a:hover{
+    
+    color: rgba(82, 64, 145, 0.8);
+    transform: scale(1.1);
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    
+}
+
+
+
+#home h2 {
+    text-align: center;
+    color: #1c4f8a;
+}
+
+#home h3 {
+    color: #ff014f;
+    text-align: center;
+}
+
+
+
+
+
+#home ul {
+    display: flex;
+    padding: 0.8rem;
+    align-items: center;
+}
+
+#home ul li {
+    font-size: 1.4rem;
+    margin: 5px;
+
+    list-style-type: none;
+}
+
+#home ul li a img {
+    width: 70px;
+    height: auto;
+}
+
+#home ul li a {
+    color: #524091;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+#home ul li a:hover {
+    color: #ff014f;
+    /* background-color: rgba(82, 64, 145, 0.8); */
+}
+
+#contacts span {
+    font-size: 2rem;
+    margin-left: 5px;
+    color: black;
+    
+}
+
+#about {
+    margin: auto;
+    margin-bottom: 50px;
+    color: #1c4f8a;
+    /* background-color: #7CDAE9; */
+    font-weight: 550;
+    width: 800px;
+    height: auto;
+    border: 10px solid #7cdae9;
+    border-radius: 20px;
+    padding: 1rem;
+}
+#about .about-heading {
+    text-align: center;
+}
+#about .about-heading h2 {
+    font-size: 2rem;
+}
+#about .about-heading h3 {
+    font-size: 1.75rem;
+    color: #ff014f;
+}
+
+
+
+#about p {
+    font-size: 1.25rem;
+    margin: 15px;
+    text-indent: 1.25rem;
+}
+
+.side-menu {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+
+
+#contacts {
+    max-width: 100%; /* Konteynerin genişliğini tam ekran yap */
+    display: flex;
+    justify-content: center; /* İçeriği merkeze al */
+    align-items: center;
+    flex-wrap: wrap; /* İçerik çok büyükse alt satıra geçsin */
+    padding: 20px 0; /* Üst ve alt boşluk */
+}
+
+#contacts h2 {
+    font-size: 2.5rem; /* Başlık boyutunu artır */
+    color: #1c4f8a;
+    margin: 0 20px; /* Sağ ve sol boşluk */
+    white-space: nowrap; /* Başlığı tek satırda tut */
+}
+#contacts #logo{
+   
+    width: 200px;
+    height: auto;
+    
+} 
+#contacts #logo:hover {
+    transform: scale(1.13);
+    
+}
+
+#contacts img {
+    width: 80px; /* İkonların boyutunu büyüt */
+    height: auto;
+}
+
+#contacts span {
+    font-size: 2.5rem; /* Telefon numarası font boyutu */
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+
+
+#contacts h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#contacts ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#contacts ul li {
+    display: flex;
+}
+
+#contacts ul li a {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+
+#contacts ul li a:hover{
+    transform: scale(1.1);
+}
+
+
+#carouselExampleControls{
+    width: 800px;
+    margin: auto;
+}
+#carouselExampleControls button{
+    z-index: 0;
+
+}
+.carousel-item img {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+
+#galeri {
+    width: 800px;
+    margin:auto;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+#galeri h2 {
+    color: #1c4f8a;
+}
+
+
+.img-thumbnail{
+    
+    padding: 0;
+    margin: 10px;
+}
+
+
+
+.footer {
+    background-color: #7CDAE9;
+    color:#524091;
+    padding: 20px;
+    font-size: 14px;
+}
+.footer #footer-p {
+    width: 500px;
+    font-weight: 500;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-left {
+    flex: 1;
+    padding-right: 20px;
+    
+}
+
+.footer-right {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-links, .social-links {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+.footer-links li, .social-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links li a, .social-links li a {
+    color: #524091;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links li a:hover, .social-links li a:hover {
+    color: #ebf5f7;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    border-top: 1px solid #1c4f8a;
+    padding-top: 10px;
+}
+
+.footer-bottom-2 {
+    text-align: center;
+    
+}
+.social-links {
+    margin-right: 0;
+}
+.social-links li {
+    display: inline;
+    
+}
+.social-links li a img {
+    width: 40px; /* Sosyal medya ikonlarının genişliğini biraz büyüt */
+    height: auto;
+    
+    margin-right: 5px;
+
+}
+.social-links li a img:hover {
+    transform: scale(1.1);
+}
+
+
+.footer-portrait {
+    width: 25%; /* Portre resminin genişliği */
+    height: auto;
+   /* Yuvarlak portre */
+   
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+
+
+
