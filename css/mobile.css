@@ -10,12 +10,13 @@
     padding-bottom:1rem;
     overflow:hidden;
     text-align: center;
-    height:200px;
+    height:210px;
 }
 #navbar #navitems {
     
     flex-direction: row;
     padding: 10px;
+    
 }
 #navbar .brand h2{
   
