@@ -1,6 +1,10 @@
+#header {
+    width: 100%;
+}
 
 
 #navbar{
+    width: 100%;
     flex-direction: column;
     padding-top:0.75rem;
     padding-bottom:1rem;
@@ -11,7 +15,8 @@
 #navbar #navitems {
     flex-direction: row;
 }
-#navbar .brand h1{
+#navbar .brand h2{
+  
     text-align: center;
 }
 #home img{
@@ -62,6 +67,14 @@ body {
     display: none;
 
 }
+#contacts #logo {
+    width: 70%;
+    height: auto;
+}
+#contacts div h2 {
+    text-align: center;
+    font-size: 0.9rem;
+}
 
 #contacts, #galeri {
     padding: 5px; 
@@ -78,6 +91,9 @@ body {
 .footer-left {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: auto;
+   
 }
 .footer #footer-p{
     width: 80%;
@@ -87,12 +103,7 @@ body {
 .footer-portrait {
     width: 200px;
 }
-.footer-left{
-    width: 370px;
-    height: auto;
-    text-align: left;
-    
-}
+
 
 .footer .container {
     flex-direction: column; /* Footer elemanlarını dikey sırala */
