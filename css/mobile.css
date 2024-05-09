@@ -6,7 +6,10 @@
     padding-bottom:1rem;
     overflow:hidden;
     text-align: center;
-    height:300px;
+    height:150px;
+}
+#navbar #navitems {
+    flex-direction: row;
 }
 #navbar .brand h1{
     text-align: center;
@@ -16,7 +19,7 @@
     max-width: 100%;
     border-radius:100%;
     height:auto;
-    margin-top: 13rem;
+    margin-top: 2.25rem;
 }
 
 
@@ -45,14 +48,14 @@ body {
 }
 
 #about {
-    width: 420px;
+    width: 80%;
 }
 #about p{
     text-indent: 0;
 }
 
 #carouselExampleControls{
-    width: 420px;
+    width: 80%;
     margin: auto;
 }
 #carouselExampleControls button{
@@ -61,8 +64,8 @@ body {
 }
 
 #contacts, #galeri {
-    padding: 5px; /* İletişim ve galeri dolgusunu daha da azalt */
-    width: 100%; /* Tam genişlik */
+    padding: 5px; 
+    width: 80%; 
 }
 
 #contacts img  {
@@ -95,6 +98,7 @@ body {
     flex-direction: column; /* Footer elemanlarını dikey sırala */
     align-items: center; /* Ortala */
 }
+
 
 .footer-links, .social-links {
     text-align: center; /* Bağlantıları merkeze al */
