@@ -80,6 +80,11 @@ a {
     padding: 0.2rem;
     list-style-type: none;
 }
+#navbar ul li:hover{
+    transform: scale(1.1);
+  
+   
+}
 
 #navbar ul li a {
     color: #524091;
@@ -88,10 +93,9 @@ a {
     
 }
 
+
 #navbar ul li a:hover{
-    
-    color: rgba(82, 64, 145, 0.8);
-    transform: scale(1.1);
+    color: white;
 }
 
 #home {
