@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #ebf5f7;
+    background-color: white;
 }
 
 
@@ -59,7 +59,7 @@ a {
 }
 
 #navbar .brand h1 {
-    color: #524091;
+    color: white;
     font-size: 1.75rem;
     padding-top: 10px;
 }
@@ -87,7 +87,7 @@ a {
 }
 
 #navbar ul li a {
-    color: #524091;
+    color: white;
     font-weight: 600;
     font-size: 1.25rem;
     
@@ -151,6 +151,8 @@ a {
     /* background-color: rgba(82, 64, 145, 0.8); */
 }
 
+
+
 #contacts span {
     font-size: 2rem;
     margin-left: 5px;
@@ -170,7 +172,7 @@ a {
     font-weight: 550;
     width: 800px;
     height: auto;
-    border: 10px solid #7cdae9;
+    border: 10px solid #003d74;
     border-radius: 20px;
     padding: 1rem;
 }
@@ -324,8 +326,9 @@ a {
 
 
 .footer {
-    background-color: #7CDAE9;
-    color:#524091;
+   background-color: #003d74;
+   
+    color:white;
     padding: 20px;
     font-size: 14px;
 }
@@ -363,14 +366,16 @@ a {
 }
 
 .footer-links li a, .social-links li a {
-    color: #524091;
+    color: white;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .footer-links li a:hover, .social-links li a:hover {
-    color: #ebf5f7;
+    font-size: 1.05rem;
+   
+
 }
 
 .footer-bottom {
