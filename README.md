@@ -40,6 +40,10 @@ git clone https://github.com/mrt-cn/FahriOksuzWebsite.git
 ## 📷 Ekran Görüntüleri
 🚀 **Yakında eklenecek**
 
+## 🌐 Website
+[![Website](https://img.shields.io/badge/Website-Visit-blue?style=flat&logo=google-chrome)](https://fahrioksuzmatematikogretmeni.netlify.app/)
+
 ## 📩 İletişim
 📧 **Geliştirici:** [Murat Can](https://github.com/mrt-cn)  
-🔗 **GitHub:** [Fahri Öksüz Web Sitesi](https://github.com/mrt-cn/FahriOksuzWebsite)
+🔗 **GitHub:** [Fahri Öksüz Web Sitesi](https://github.com/mrt-cn/math_instructor_portfolio_basic)
+ 
